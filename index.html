@@ -96,7 +96,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-6">
                     <div class="input-group mb-3 shadow">
-                        <input type="text" class="form-control" placeholder="Search Task" aria-label="Search Task"
+                        <input type="search" class="form-control" id="myFilter" onkeyup="myFunction()" placeholder="Search Task" aria-label="Search Task"
                             aria-describedby="basic-addon2">
                         <span class="input-group-text" id="basic-addon2"><i class="fas fa-search"></i></span>
                     </div>
@@ -105,9 +105,10 @@
 
         </section>
         <section>
-            <div class="row task_container ">
+                <div class="row task_container " id="myItems">
                 
-            </div>
+                </div>
+          
         </section>
 
     </div>
